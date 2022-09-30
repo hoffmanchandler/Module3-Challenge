@@ -1,0 +1,46 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html, body, card-title {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  body {
+    background-color: whitesmoke;
+  }
+
+  .card-title {
+    background-color: white;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .password-output {
+    padding: 100px;
+    margin: 20px;
+    border-style: dotted;
+    text-align: center;
+    border-radius: 14px;
+  }
+
+  .button {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 45%;
+    transition-delay: 0.05s;
+    border-radius: 14px;
+    display: block;
+  }
+
+  /* adding hover mechanic because it looks cool */
+  .button:hover {
+    background-color: white;
+    color: red;
+  }
