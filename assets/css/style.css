@@ -33,7 +33,9 @@
     color: white;
     text-align: center;
     padding: 10px;
+    /* Forcing the button to center. I'm sure there is a better way to do this but this works */
     margin-left: 45%;
+    /* Adding fast transition for hover mechanic */
     transition-delay: 0.05s;
     border-radius: 14px;
     display: block;
